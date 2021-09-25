@@ -14,7 +14,13 @@
 </footer>
 
 <style>
-	main {
+  :global(
+ul {
+    padding: 0;
+    list-style-type: none;
+  }
+
+  ) 	main {
 		flex: 1;
 		display: flex;
 		flex-direction: column;
